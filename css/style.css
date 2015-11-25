@@ -10,7 +10,7 @@ video#bgvid {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  // background: url(some-fallback-image) no-repeat;
+  background: url('/images/oceans.png') no-repeat;
   background-size: cover;
   -webkit-filter: blur(15px);
   -moz-filter: blur(15px);
@@ -41,13 +41,13 @@ video#bgvid {
 }
 
   .rb-title h1 {
-    // background-color:rgba(0, 200, 255, 0.1);
+    /*background-color:rgba(0, 200, 255, 0.1);*/
     border-bottom: 1px solid white;
 
   }
 
   .rb-title h5 {
-    // background-color:rgba(255, 255, 255, 0.1);
+    /*background-color:rgba(255, 255, 255, 0.1);*/
   }
   .rb-title h1, h5 {
     border-right: 1px solid white;
